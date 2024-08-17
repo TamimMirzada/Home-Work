@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neoman Pharmacy</title>
+    <style>
+        body{
+            background-color:#052d3b;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        Header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #c9d7dc;
+        }
+        .logo img{height: 50px; }
+
+        nav ul{ display: flex;list-style-type: none; gap: 20px;}
+
+        nav ul li a{text-decoration: none; color: rgba(11, 108, 51, 0.983);}
+
+        nav ul li a:hover{color:rgb(59, 41, 161);}
+
+        main{padding: 20px;}
+
+        .home{text-align: center; padding: 20px;}
+
+        .services-g{ display: flex;flex-wrap:wrap;gap: 10px;}
+
+        .service{flex: 1;background-color: #ac121d;padding: 15px;text-align: center; color: #d4d4d4;}
+
+        .product-grid{display:inline-flex;}
+
+        .product{flex: 1 1 200px;background-color: #32a00d;padding: 10px;text-align: center;justify-content: space-between; border-radius: 36px;
+            background:#a50a0f;
+            box-shadow: 1px 1px 1px #80a806,-2px -2px 3px #000000;}
+
+
+        footer{
+            padding: 10px 20px;
+            display:flex;
+            justify-content:space-between;
+            align-items: center;
+            border-radius: 26px;
+            background: #9a2809;
+            box-shadow: 1px 1px 1px #9d4040,-1px -1px 1px #b7cfcf;
+        }
+        .social-media{display: flex;color:#000}
+        .social-link{margin-right: 10px;color:#080808;text-decoration: none;}
+        .contact-info{
+        color: #070707;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="c:\Users\Taieb Osmani\Desktop\New folder (5)\logo.jpg" alt="pharmacy logo"><br>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+     <section id="home">
+        <div class="home">
+            <img src="c:\Users\Taieb Osmani\Desktop\Annotation 2024-08-17 225157.png " alt="Welcome to Benner" width="100%"height="400px">
+            <p>Welcome to Our Pharmacy!</p>
+        </div>
+     </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>Brief descriptoin of pharmacy,mission and values.</p>
+      </section>
+
+      <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-g">
+            <div class="service">Prescription Refills</div>
+            <div class="service">Health Consultations</div>
+            <div class="service">Immunizations</div>
+            <div class="service">Medication Theraphy Management</div>
+        </div>
+      </section>
+
+       <section id="product-grid">
+        <h2>Our products</h2>
+        <div class="product">
+            <img src="Codral.jpg" alt="product 1" height="400px">
+            <p>codral cold&flu</p>
+            <p>9.99 Dolors</p>
+        </div>
+        <div class="product">
+            <img src="ezipam.jpg" alt="product 2"height="400px">
+            <p>Ezipam</p>
+            <p>19.99 Dolors</p>
+        </div>
+
+        <div class="product">
+            <img src="codral+.jpg" alt="product 3"height="400px" >
+            <p>Codral+</p>
+            <p>20.14 Dolors</p>
+        </div>
+
+        <div class="product">
+            <img src="codral night.jpg" alt="product 4"height="400px">
+            <p>Codral night</p>
+            <p>13.7 Dolors</p>
+        </div>
+       </section>
+    </main>
+    
+    <footer>
+        <div class="contact-info">
+            <p>Address: Afghanistan,Herat,Sohail pharmacy</p>
+            <p>Phone:0093790435785</p>
+            <p>Email:tamimmirzada@gamil.com</p>
+
+        </div>
+        <div class="social-media">
+            <a href="#" class="social-link">Facebooke</a>
+            <a href="#" class="social-link">Twitter</a>
+            <a href="#" class="social-link">Instagram</a>
+
+
+        </div>
+    </footer>
+
+
+
+
+    
+</body>
+</html>
